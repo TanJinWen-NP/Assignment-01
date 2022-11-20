@@ -45,6 +45,11 @@
     padding: 0.6em 1.6em;
 }
 
+.store:hover{
+    transition: all 0.2s ease-in;
+    color: black;
+}
+
 section {
    margin: 2em -0.5em;
    padding: 5em;
@@ -75,7 +80,6 @@ section {
     font-family: "Poppins";
     font-weight: bold;
     font-size: 15px;
-    overflow-wrap: break-word;
 }
 
 .main-heading {
@@ -98,7 +102,4 @@ span {
     float: right;
     top: 5px;
 }
-
-
-
 
