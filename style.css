@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
-* {
-    background-color: #F3F3F3F3;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 .navbar-list {
     display: flex;
@@ -33,18 +30,75 @@
 
 .navbar-item a:hover{
     transition: all 0.2s ease-in;
-    color:rgb(30, 164, 30)
+    color: rgb(22, 141, 22);
 }
 
 .store {
     font-family: "Montserrat";
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 16px;
     border: none;
     outline: none;
-    background-color: rgb(34, 211, 34);
+    background-color: rgb(22, 141, 22);
     border-radius: 1em;
     padding: 0.6em 1.6em;
 }
+
+section {
+   margin: 2em -0.5em;
+   padding: 5em;
+   background-color: #eaeaea;
+   
+}
+
+.sub-heading {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    color:rgb(22, 141, 22);
+    margin-top: -1.5em;
+}
+
+.description {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 20px;
+    inline-size: 600px;
+    overflow-wrap: break-word;
+    line-height: 25px;
+}
+
+.quote {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 15px;
+    overflow-wrap: break-word;
+}
+
+.main-heading {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 50px;
+    inline-size: 500px;
+    overflow-wrap: break-word;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+span {
+    color: rgb(22, 141, 22);
+}
+
+.plant-photo {
+    height: 525px;
+    width: 675px;
+    float: right;
+    top: 5px;
+}
+
+
+
 
